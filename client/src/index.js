@@ -9,14 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC20DLtti8UsFP7TK7uk1sQjK-Sr_GIlSM",
-  authDomain: "choplink-c4ea6.firebaseapp.com",
-  databaseURL: "https://choplink-c4ea6-default-rtdb.firebaseio.com",
-  projectId: "choplink-c4ea6",
-  storageBucket: "choplink-c4ea6.appspot.com",
-  messagingSenderId: "170883469382",
-  appId: "1:170883469382:web:f3d62b0b0523db33c4fa47",
-  measurementId: "G-VKLQVRYXPB"
+//Removed for the purpose of publication
 };
 
 initializeApp(firebaseConfig);
