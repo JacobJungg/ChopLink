@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5f7;
+  background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #444cf7, #444cf7 50%, #e5e5f7 50%);
+  background-size: 10px 10px;
+ 
+ 
+  --s: 84px; /* control the size*/
+  --c1: #a6dcef;
+  --c2: #c3e9f6;
+  --c3: #edfaff;
+  
+  --_g: 0 120deg,#0000 0;
+  background:
+    conic-gradient(from    0deg at calc(500%/6) calc(100%/3),var(--c3) var(--_g)),
+    conic-gradient(from -120deg at calc(100%/6) calc(100%/3),var(--c2) var(--_g)),
+    conic-gradient(from  120deg at calc(100%/3) calc(500%/6),var(--c1) var(--_g)),
+    conic-gradient(from  120deg at calc(200%/3) calc(500%/6),var(--c1) var(--_g)),
+    conic-gradient(from -180deg at calc(100%/3) 50%,var(--c2)  60deg,var(--c1) var(--_g)),
+    conic-gradient(from   60deg at calc(200%/3) 50%,var(--c1)  60deg,var(--c3) var(--_g)),
+    conic-gradient(from  -60deg at 50% calc(100%/3),var(--c1) 120deg,var(--c2) 0 240deg,var(--c3) 0);
+  background-size: calc(var(--s)*1.732) var(--s);
+
+
+
+
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,label {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.auth-inner {
+  width: auto;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+
+.form-group{
+  padding: 10px 0 10px 0;
+}
+
+.generatedurl{
+  margin-top: 20px;
+}
+
+.generatedurl span {
+  font-family: 'Fira Sans', sans-serif;
+}
