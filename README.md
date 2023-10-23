@@ -1,8 +1,8 @@
 ## ChopLink is a quick easy URL shortening platform!
 ChopLink utilizes Firebase to...
--Secure users information
--Tether unique keys with URLs
--Work in real-time 
+- Secure users information
+- Tether unique keys with URLs
+- Work in real-time 
 
 ![Screenshot_64](https://github.com/JacobJungg/ChopLink/assets/124704749/72639d5b-1318-4741-bb2c-5756dcf56136)
 This is ChopLink's main page.
