@@ -10,7 +10,7 @@ This is ChopLink's main page.
 ![Screenshot_65](https://github.com/JacobJungg/ChopLink/assets/124704749/88ee0fe3-3ed4-469e-8ea6-67b981bfbb8e)
 Simply add your URL to the first form and press submit!
 Users can input their own key (the information after choplink/) of their own choice in the second form.
-Click the copy button to add your URL to your clipboard.
+Click the copy button to add your URL to your clipboard throught ToolTip.
 
 ![Screenshot_66](https://github.com/JacobJungg/ChopLink/assets/124704749/aa1f1cf3-8547-4ac8-a05b-4237b4fff842)
 If another user wanted to use the same key, ChopLink searches through their database ensuring
