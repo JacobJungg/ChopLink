@@ -2,7 +2,14 @@
 ChopLink utilizes Firebase to...
 - Secure users information
 - Tether unique keys with URLs
-- Work in real-time 
+- Work in real-time
+
+
+This project helped me...
+- Explore database's, specifically Firebase
+- Integrate frontend with backend
+- Plan, solve and execute an entire project
+
 
 ![Screenshot_64](https://github.com/JacobJungg/ChopLink/assets/124704749/72639d5b-1318-4741-bb2c-5756dcf56136)
 This is ChopLink's main page.
@@ -19,9 +26,3 @@ unique keys for all.
 ![Screenshot_67](https://github.com/JacobJungg/ChopLink/assets/124704749/f08c78a6-7c54-4726-9ecd-16e4514813ea)
 The keys are successfully tethered and stored in Firebase's real-time database. Pasting the URL ChopLink provided,
 will lead users to the original link they inputed!
-
-
-This project helped me...
-- Explore database's, specifically Firebase
-- Improve my React skills
-- Plan, solve and execute an entire project
